@@ -84,3 +84,4 @@ jobs:
         context: ./src
         push: true
         tags: ${{ secrets.DOCKERHUB_USERNAME }}/${{ env.DOCKER_IMAGE_NAME }}:${{ github.sha }}
+# Updated credentials via Github (needed to add something here to commit)
